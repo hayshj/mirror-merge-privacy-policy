@@ -2,7 +2,7 @@ const path = require("path");
 const express = require("express");
 
 const app = express();
-const PORT = 3002;
+const PORT = 3003;
 
 // Serve static files in this folder (css, etc.)
 app.use(express.static(__dirname));
