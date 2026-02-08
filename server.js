@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3003;
 
 // Serve static files in this folder (css, etc.)
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Serve the HTML at /
 app.get("/", (req, res) => {
